@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700&amp;display=swap);
+
+:root {
+    --primary-color: #40ba67; /* Light green */
+    --white: #ffffff; /* White */
+    --black: #000000; /* Black */
+    --grey: #495057; /* Black */
+}
+
+* {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.title {
+    color: var(--white);
+}
+
+/* PC Screen Size */
+
+@media (max-width: 1140.98px) {
+    .navbar-nav li a {
+        font-size: 12px !important;
+    }
+}
+
+/* PC Screen Size */
+
+/* Small Screens */
+
+@media (min-width: 200px) and (max-width: 991.5px) {
+}
+
+/* Small Screens */
